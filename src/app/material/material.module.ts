@@ -10,7 +10,8 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatOptionModule } from '@angular/material/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
-
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatListModule} from '@angular/material/list';
 //https://codingpotions.com/angular-login-sesion/
 //https://codesandbox.io/s/compassionate-voice-p5h32?file=/src/app/app.routing.ts
 //https://developer.okta.com/blog/2019/02/12/secure-angular-login
@@ -30,7 +31,9 @@ import { MatButtonModule } from '@angular/material/button';
     MatTableModule,
     MatSlideToggleModule,
     MatSelectModule,
-    MatOptionModule
+    MatOptionModule,
+    MatSidenavModule,
+    MatListModule
   ],
   exports:[
     MatToolbarModule,
@@ -43,7 +46,9 @@ import { MatButtonModule } from '@angular/material/button';
     MatSlideToggleModule,
     MatSelectModule,
     MatOptionModule,
-    
+    MatSidenavModule,
+    MatListModule
+
   ]
 })
 export class MaterialModule { }

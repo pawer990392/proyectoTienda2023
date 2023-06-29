@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { InicioModule } from './inicio/inicio.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { PrincipalModule } from './principal/principal.module';
+
+import { AdminModule } from './admin/admin.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,7 @@ import { PrincipalModule } from './principal/principal.module';
     BrowserAnimationsModule,
     InicioModule,
     NgbModule,
-    PrincipalModule
+    AdminModule
   ],
   providers: [],
   bootstrap: [AppComponent]
